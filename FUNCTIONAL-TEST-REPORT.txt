@@ -1,0 +1,52 @@
+THE HOUSE COFFEE — FUNCTIONAL QA REPORT
+Date: 2026-07-14
+Build: Functional-tested responsive build
+Test browser: Chromium (desktop and mobile viewport simulation)
+
+OVERALL RESULT
+PASS — The tested local build completed the core functional test suite with no JavaScript runtime errors, no console errors, no missing local assets, and no horizontal overflow in the tested screen sizes.
+
+TESTED VIEWPORTS
+- 320 × 568
+- 360 × 640
+- 375 × 667
+- 360 × 800
+- 390 × 844
+- 430 × 932
+- 768 × 1024
+- 1024 × 768
+- 1440 × 900
+
+FUNCTIONAL TESTS PASSED
+1. Initial page rendering and preloader dismissal.
+2. All 39 menu items render correctly.
+3. Mobile navigation opens, closes, updates aria-expanded, and locks/unlocks body scrolling.
+4. Escape key closes the mobile navigation and returns focus to the menu button.
+5. Navigation links scroll to valid page sections and close the mobile menu.
+6. English/Arabic language switch updates language, direction, interface copy and search placeholder.
+7. Menu category filtering works.
+8. Menu search works and returns the expected V60 results.
+9. Clear-search control restores the selected category.
+10. Empty-search-result state renders correctly.
+11. Sticky header state and scroll-progress indicator update while scrolling.
+12. Atmosphere video loads, plays and pauses correctly.
+13. Every internal anchor points to an existing section.
+14. Google Maps and Instagram links use safe external-link attributes.
+15. Current-year footer output works.
+16. Keyboard navigation between menu tabs works with Arrow and End keys.
+17. Desktop cup pointer tilt and reset interaction works.
+18. The rotating House text remains visible behind the cup on mobile.
+19. No horizontal page overflow in any tested viewport.
+20. No duplicate HTML IDs, missing local assets, missing image alt text, or unlabeled buttons.
+
+ISSUE FOUND AND FIXED
+- On short mobile screens such as 320 × 568 and 360 × 640, the cup could extend behind the bottom ticker and become clipped.
+- Added a compact-height responsive rule that scales the cup safely while preserving the rotating text, hours, rating card and ticker.
+
+MEDIA VALIDATION
+- intro.mp4 successfully parsed.
+- Duration: approximately 17.74 seconds.
+- Size: approximately 2.46 MB.
+
+NOTES
+- The local site build and link structure were tested. External service responses from Instagram and Google Maps were not treated as part of the local application test.

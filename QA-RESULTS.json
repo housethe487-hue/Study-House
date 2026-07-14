@@ -1,0 +1,624 @@
+{
+  "viewports": {
+    "mobile_320x568": {
+      "clientWidth": 320,
+      "scrollWidth": 320,
+      "overflow": 0,
+      "preloaderHidden": true,
+      "menuItems": 39,
+      "orbitDisplay": "grid",
+      "orbitOpacity": "0.92",
+      "cup": {
+        "x": 30,
+        "y": 157,
+        "w": 261,
+        "h": 357,
+        "right": 291,
+        "bottom": 514
+      },
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 514,
+        "right": 320,
+        "bottom": 514
+      },
+      "strip": {
+        "x": 0,
+        "y": 514,
+        "w": 320,
+        "h": 54,
+        "right": 320,
+        "bottom": 568
+      },
+      "rating": {
+        "x": 207,
+        "y": 452,
+        "w": 103,
+        "h": 52,
+        "right": 310,
+        "bottom": 504
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 82,
+        "right": 320,
+        "bottom": 82
+      },
+      "heroCopy": "flex"
+    },
+    "mobile_360x640": {
+      "clientWidth": 360,
+      "scrollWidth": 360,
+      "overflow": 0,
+      "preloaderHidden": true,
+      "menuItems": 39,
+      "orbitDisplay": "grid",
+      "orbitOpacity": "0.92",
+      "cup": {
+        "x": 24,
+        "y": 155,
+        "w": 312,
+        "h": 428,
+        "right": 337,
+        "bottom": 583
+      },
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 586,
+        "right": 360,
+        "bottom": 586
+      },
+      "strip": {
+        "x": 0,
+        "y": 586,
+        "w": 360,
+        "h": 54,
+        "right": 360,
+        "bottom": 640
+      },
+      "rating": {
+        "x": 247,
+        "y": 524,
+        "w": 103,
+        "h": 52,
+        "right": 350,
+        "bottom": 576
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 78,
+        "right": 360,
+        "bottom": 78
+      },
+      "heroCopy": "flex"
+    },
+    "mobile_375x667": {
+      "clientWidth": 375,
+      "scrollWidth": 375,
+      "overflow": 0,
+      "preloaderHidden": true,
+      "menuItems": 39,
+      "orbitDisplay": "grid",
+      "orbitOpacity": "0.92",
+      "cup": {
+        "x": 25,
+        "y": 155,
+        "w": 327,
+        "h": 447,
+        "right": 351,
+        "bottom": 603
+      },
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "w": 375,
+        "h": 613,
+        "right": 375,
+        "bottom": 613
+      },
+      "strip": {
+        "x": 0,
+        "y": 613,
+        "w": 375,
+        "h": 54,
+        "right": 375,
+        "bottom": 667
+      },
+      "rating": {
+        "x": 253,
+        "y": 546,
+        "w": 112,
+        "h": 57,
+        "right": 365,
+        "bottom": 603
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "w": 375,
+        "h": 78,
+        "right": 375,
+        "bottom": 78
+      },
+      "heroCopy": "flex"
+    },
+    "mobile_360x800": {
+      "clientWidth": 360,
+      "scrollWidth": 360,
+      "overflow": 0,
+      "preloaderHidden": true,
+      "menuItems": 39,
+      "orbitDisplay": "grid",
+      "orbitOpacity": "0.92",
+      "cup": {
+        "x": -6,
+        "y": 186,
+        "w": 374,
+        "h": 512,
+        "right": 368,
+        "bottom": 699
+      },
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 740,
+        "right": 360,
+        "bottom": 740
+      },
+      "strip": {
+        "x": 0,
+        "y": 740,
+        "w": 360,
+        "h": 60,
+        "right": 360,
+        "bottom": 800
+      },
+      "rating": {
+        "x": 234,
+        "y": 664,
+        "w": 114,
+        "h": 56,
+        "right": 348,
+        "bottom": 720
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 87,
+        "right": 360,
+        "bottom": 87
+      },
+      "heroCopy": "flex"
+    },
+    "mobile_390x844": {
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "overflow": 0,
+      "preloaderHidden": true,
+      "menuItems": 39,
+      "orbitDisplay": "grid",
+      "orbitOpacity": "0.92",
+      "cup": {
+        "x": -7,
+        "y": 188,
+        "w": 405,
+        "h": 555,
+        "right": 398,
+        "bottom": 743
+      },
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "w": 390,
+        "h": 784,
+        "right": 390,
+        "bottom": 784
+      },
+      "strip": {
+        "x": 0,
+        "y": 784,
+        "w": 390,
+        "h": 60,
+        "right": 390,
+        "bottom": 844
+      },
+      "rating": {
+        "x": 254,
+        "y": 703,
+        "w": 124,
+        "h": 61,
+        "right": 378,
+        "bottom": 764
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "w": 390,
+        "h": 92,
+        "right": 390,
+        "bottom": 92
+      },
+      "heroCopy": "flex"
+    },
+    "mobile_430x932": {
+      "clientWidth": 430,
+      "scrollWidth": 430,
+      "overflow": 0,
+      "preloaderHidden": true,
+      "menuItems": 39,
+      "orbitDisplay": "grid",
+      "orbitOpacity": "0.92",
+      "cup": {
+        "x": 2,
+        "y": 217,
+        "w": 429,
+        "h": 587,
+        "right": 430,
+        "bottom": 804
+      },
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "w": 430,
+        "h": 872,
+        "right": 430,
+        "bottom": 872
+      },
+      "strip": {
+        "x": 0,
+        "y": 872,
+        "w": 430,
+        "h": 60,
+        "right": 430,
+        "bottom": 932
+      },
+      "rating": {
+        "x": 290,
+        "y": 783,
+        "w": 124,
+        "h": 61,
+        "right": 414,
+        "bottom": 844
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "w": 430,
+        "h": 92,
+        "right": 430,
+        "bottom": 92
+      },
+      "heroCopy": "flex"
+    },
+    "tablet_768": {
+      "clientWidth": 768,
+      "scrollWidth": 768,
+      "overflow": 0,
+      "preloaderHidden": true,
+      "menuItems": 39,
+      "orbitDisplay": "grid",
+      "orbitOpacity": "1",
+      "cup": {
+        "x": 124,
+        "y": 533,
+        "w": 515,
+        "h": 701,
+        "right": 639,
+        "bottom": 1234
+      },
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "w": 768,
+        "h": 1278,
+        "right": 768,
+        "bottom": 1278
+      },
+      "strip": {
+        "x": 0,
+        "y": 1278,
+        "w": 768,
+        "h": 41,
+        "right": 768,
+        "bottom": 1319
+      },
+      "rating": {
+        "x": 581,
+        "y": 1091,
+        "w": 126,
+        "h": 61,
+        "right": 707,
+        "bottom": 1152
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "w": 768,
+        "h": 90,
+        "right": 768,
+        "bottom": 90
+      },
+      "heroCopy": "block"
+    },
+    "laptop_1024": {
+      "clientWidth": 1024,
+      "scrollWidth": 1024,
+      "overflow": 0,
+      "preloaderHidden": true,
+      "menuItems": 39,
+      "orbitDisplay": "grid",
+      "orbitOpacity": "1",
+      "cup": {
+        "x": 250,
+        "y": 571,
+        "w": 519,
+        "h": 708,
+        "right": 770,
+        "bottom": 1280
+      },
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "w": 1024,
+        "h": 1328,
+        "right": 1024,
+        "bottom": 1328
+      },
+      "strip": {
+        "x": 0,
+        "y": 1328,
+        "w": 1024,
+        "h": 41,
+        "right": 1024,
+        "bottom": 1369
+      },
+      "rating": {
+        "x": 732,
+        "y": 1121,
+        "w": 126,
+        "h": 61,
+        "right": 858,
+        "bottom": 1182
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "w": 1024,
+        "h": 88,
+        "right": 1024,
+        "bottom": 88
+      },
+      "heroCopy": "block"
+    },
+    "desktop_1440": {
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "overflow": 0,
+      "preloaderHidden": true,
+      "menuItems": 39,
+      "orbitDisplay": "grid",
+      "orbitOpacity": "1",
+      "cup": {
+        "x": 774,
+        "y": 148,
+        "w": 541,
+        "h": 740,
+        "right": 1315,
+        "bottom": 888
+      },
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 958,
+        "right": 1440,
+        "bottom": 958
+      },
+      "strip": {
+        "x": 0,
+        "y": 958,
+        "w": 1440,
+        "h": 41,
+        "right": 1440,
+        "bottom": 999
+      },
+      "rating": {
+        "x": 1185,
+        "y": 711,
+        "w": 126,
+        "h": 61,
+        "right": 1311,
+        "bottom": 772
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 88,
+        "right": 1440,
+        "bottom": 88
+      },
+      "heroCopy": "block"
+    }
+  },
+  "functional": {
+    "initial": {
+      "menuOpen": false,
+      "expanded": "false",
+      "items": 39,
+      "count": "39 items"
+    },
+    "menu_open": {
+      "open": true,
+      "expanded": "true",
+      "body": true,
+      "visible": "visible",
+      "opacity": "1"
+    },
+    "menu_escape": {
+      "open": false,
+      "expanded": "false",
+      "body": false,
+      "focused": "menu-toggle"
+    },
+    "nav_story": {
+      "hash": "#story",
+      "open": false,
+      "storyTop": 76
+    },
+    "arabic": {
+      "lang": "ar",
+      "dir": "rtl",
+      "body": true,
+      "button": "EN",
+      "nav": "قصتنا",
+      "placeholder": "ابحث في المنيو"
+    },
+    "coffee_filter": {
+      "cards": 11,
+      "count": "11 items",
+      "active": "coffee"
+    },
+    "search_v60": {
+      "cards": [
+        "V60",
+        "V60 - Hula",
+        "V60 - Raspberry"
+      ],
+      "count": "3 items",
+      "clearHidden": false
+    },
+    "clear": {
+      "value": "",
+      "count": "11 items",
+      "cards": 11,
+      "hidden": true
+    },
+    "no_match": {
+      "empty": true,
+      "cards": 0,
+      "count": "0 items"
+    },
+    "scroll": {
+      "scrolled": true,
+      "progress": 39.7894
+    },
+    "video_before": {
+      "ready": true,
+      "unavailable": false,
+      "paused": true,
+      "readyState": 4
+    },
+    "video_play": {
+      "playing": true,
+      "paused": false,
+      "muted": false,
+      "controls": false,
+      "currentTime": 0.656789
+    },
+    "video_pause": {
+      "playing": false,
+      "paused": true
+    },
+    "anchors": [
+      {
+        "href": "#main-content",
+        "exists": true
+      },
+      {
+        "href": "#home",
+        "exists": true
+      },
+      {
+        "href": "#story",
+        "exists": true
+      },
+      {
+        "href": "#experience",
+        "exists": true
+      },
+      {
+        "href": "#menu",
+        "exists": true
+      },
+      {
+        "href": "#visit",
+        "exists": true
+      },
+      {
+        "href": "#menu",
+        "exists": true
+      },
+      {
+        "href": "#menu",
+        "exists": true
+      },
+      {
+        "href": "#visit",
+        "exists": true
+      },
+      {
+        "href": "#story",
+        "exists": true
+      },
+      {
+        "href": "#home",
+        "exists": true
+      },
+      {
+        "href": "#home",
+        "exists": true
+      }
+    ],
+    "external": [
+      {
+        "href": "https://www.google.com/maps/search/?api=1&query=32.0452162%2C35.923683",
+        "target": "_blank",
+        "rel": "noopener"
+      },
+      {
+        "href": "https://www.instagram.com/house.amman/",
+        "target": "_blank",
+        "rel": "noopener"
+      },
+      {
+        "href": "https://www.instagram.com/house.amman/",
+        "target": "_blank",
+        "rel": "noopener"
+      }
+    ],
+    "year": "2026"
+  },
+  "desktop": {
+    "tilt": {
+      "active": false,
+      "x": "",
+      "rx": "",
+      "ry": ""
+    },
+    "reset": {
+      "active": false,
+      "x": ""
+    },
+    "tab_right": {
+      "active": "coffee",
+      "focused": "coffee"
+    },
+    "tab_end": {
+      "active": "extras",
+      "focused": "extras"
+    }
+  },
+  "console": [],
+  "page_errors": []
+}

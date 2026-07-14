@@ -2455,3 +2455,21 @@ svg { max-width: 100%; }
     max-height: calc(100% - 42px);
   }
 }
+
+
+/* =========================================================
+   RTL ORBIT FIX
+   Keeps the English circular brand copy visible when the
+   website language switches to Arabic (document direction RTL).
+   ========================================================= */
+.orbit-copy,
+.orbit-copy svg,
+.orbit-copy text,
+.orbit-copy textPath {
+  direction: ltr !important;
+  unicode-bidi: isolate;
+}
+
+.orbit-copy text {
+  text-anchor: start;
+}

@@ -32,14 +32,12 @@
       <img src="assets/house-mark.svg" alt="The House Coffee logo">
       <span><strong>THE HOUSE</strong><small>COFFEE · AMMAN</small></span>
     </a>
-
     <nav class="desktop-nav" aria-label="Primary navigation">
       <a href="#story" data-en="The House" data-ar="ذا هاوس">The House</a>
       <a href="#rituals" data-en="Rituals" data-ar="التجربة">Rituals</a>
       <a href="#menu" data-en="Menu" data-ar="المنيو">Menu</a>
       <a href="#visit" data-en="Visit" data-ar="زورونا">Visit</a>
     </nav>
-
     <div class="top-actions">
       <button class="lang" type="button" aria-label="Switch language">AR</button>
       <a class="header-cta" href="#menu" data-en="Open menu" data-ar="افتح المنيو">Open menu</a>
@@ -84,6 +82,7 @@
           <div class="hour-seal"><b>8—12</b><small>EVERY DAY</small></div>
         </div>
       </div>
+
       <div class="mood-console" aria-label="Choose your House mood">
         <div><small data-en="YOUR HOUSE, YOUR HOUR" data-ar="ذا هاوس حسب وقتك">YOUR HOUSE, YOUR HOUR</small><p id="mood-caption">Quiet light. First pour. Clear mind.</p></div>
         <div class="mood-buttons" role="tablist">
@@ -114,13 +113,48 @@
       </div>
     </section>
 
-    <section class="film-section section">
-      <div class="film-copy reveal"><p class="kicker" data-en="THE HOUSE FILM" data-ar="فيلم ذا هاوس">THE HOUSE FILM</p><h2 data-en="See the details. Feel the pace." data-ar="شاهد التفاصيل، واشعر بالإيقاع.">See the details. Feel the pace.</h2><p data-en="A short glimpse of the bar, the hands behind every cup and the atmosphere that changes with every hour." data-ar="لمحة قصيرة عن البار، والأيدي خلف كل كوب، والأجواء التي تتغير مع كل ساعة.">A short glimpse of the bar, the hands behind every cup and the atmosphere that changes with every hour.</p><button class="sound-toggle" type="button"><span></span><b data-en="Sound off" data-ar="الصوت مغلق">Sound off</b></button></div>
-      <div class="film-frame reveal">
-        <div class="film-fallback"><img src="assets/house-mark.svg" alt=""><span></span></div>
-        <video class="house-film" muted loop playsinline preload="metadata" poster="https://housethe487-hue.github.io/the-house-coffee/assets/intro-poster.jpg"><source src="https://housethe487-hue.github.io/the-house-coffee/assets/intro.mp4" type="video/mp4"></video>
-        <button class="film-play" type="button" aria-label="Play film"><i></i><span data-en="PLAY THE HOUSE FILM" data-ar="شغّل فيلم ذا هاوس">PLAY THE HOUSE FILM</span></button>
-        <div class="film-meta"><span>THE HOUSE · AMMAN</span><span>00:18</span></div>
+    <!-- Replaces the old decorative 18-second film with practical visit information. -->
+    <section class="essentials-section section" id="essentials">
+      <div class="essentials-copy reveal">
+        <p class="kicker" data-en="HOUSE ESSENTIALS" data-ar="أهم تفاصيل ذا هاوس">HOUSE ESSENTIALS</p>
+        <h2 data-en="Everything you need before your next favorite hour." data-ar="كل ما تحتاجه قبل ساعتك المفضلة القادمة.">Everything you need before your next favorite hour.</h2>
+        <p data-en="A quick guide to the atmosphere, menu, hours and location—so you can plan the visit that fits your day." data-ar="دليل سريع للأجواء والمنيو وساعات العمل والموقع، حتى تخطط للزيارة المناسبة ليومك.">A quick guide to the atmosphere, menu, hours and location—so you can plan the visit that fits your day.</p>
+        <div class="essentials-actions">
+          <a class="pill primary magnetic" href="#menu"><span data-en="Explore the menu" data-ar="استكشف المنيو">Explore the menu</span><i>↗</i></a>
+          <a class="pill secondary magnetic" href="https://www.google.com/maps/search/?api=1&query=32.0452162%2C35.923683" target="_blank" rel="noopener"><span data-en="Open Google Maps" data-ar="افتح خرائط جوجل">Open Google Maps</span></a>
+        </div>
+      </div>
+
+      <div class="essentials-grid reveal">
+        <article class="essential-card essential-focus">
+          <div class="essential-top"><span>01</span><b>FOCUS</b></div>
+          <div class="essential-symbol" aria-hidden="true"><i></i><i></i><i></i></div>
+          <div><h3 data-en="Room to focus" data-ar="مساحة للتركيز">Room to focus</h3><p data-en="Calm daytime energy, a table and enough space to let ideas move." data-ar="طاقة نهارية هادئة، طاولة، ومساحة تساعد أفكارك تتحرك.">Calm daytime energy, a table and enough space to let ideas move.</p></div>
+        </article>
+
+        <article class="essential-card essential-menu">
+          <div class="essential-top"><span>02</span><b>MENU</b></div>
+          <strong class="essential-number">39</strong>
+          <div><h3 data-en="Choices for every mood" data-ar="خيارات لكل مزاج">Choices for every mood</h3><p data-en="Coffee classics, signatures, frappe, matcha, shakes and additions." data-ar="قهوة كلاسيكية، مشروبات مميزة، فرابيه، ماتشا، ميلك شيك وإضافات.">Coffee classics, signatures, frappe, matcha, shakes and additions.</p></div>
+        </article>
+
+        <article class="essential-card essential-hours">
+          <div class="essential-top"><span>03</span><b>HOURS</b></div>
+          <div class="essential-clock" aria-hidden="true"><span></span><i></i></div>
+          <div><h3 data-en="Open every day" data-ar="مفتوح كل يوم">Open every day</h3><p data-en="From 08:00 in the morning until midnight." data-ar="من الساعة 8:00 صباحاً حتى منتصف الليل.">From 08:00 in the morning until midnight.</p></div>
+        </article>
+
+        <article class="essential-card essential-location">
+          <div class="essential-top"><span>04</span><b>LOCATION</b></div>
+          <div class="essential-pin" aria-hidden="true"><span></span></div>
+          <div><h3 data-en="Shafa Badran" data-ar="شفا بدران">Shafa Badran</h3><p data-en="Refaat Shamout St., Amman. Open the map and head straight in." data-ar="شارع رفعت شموط، عمّان. افتح الخريطة وتوجّه مباشرة.">Refaat Shamout St., Amman. Open the map and head straight in.</p></div>
+        </article>
+      </div>
+
+      <!-- Compatibility nodes keep the existing script.js safe without loading or showing a video. -->
+      <div class="film-compat" hidden aria-hidden="true">
+        <button class="sound-toggle" type="button"><span></span><b>Sound off</b></button>
+        <div class="film-frame"><video class="house-film" muted loop playsinline preload="none"></video><button class="film-play" type="button" aria-label="Hidden compatibility control"></button></div>
       </div>
     </section>
 

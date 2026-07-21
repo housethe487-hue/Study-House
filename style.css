@@ -113,3 +113,193 @@ body.is-ar .essential-card p{font-size:.9rem}
   .essential-symbol,.essential-clock,.essential-pin{transform:scale(.82);transform-origin:left center}
   body.is-ar .essential-symbol,body.is-ar .essential-clock,body.is-ar .essential-pin{transform-origin:right center}
 }
+/* ==================================================
+   MOBILE + TABLET BOTTOM NAVIGATION
+================================================== */
+
+.mobile-bottom-nav {
+  display: none;
+}
+
+/* يظهر فقط على التابلت والآيباد والتلفون */
+@media (max-width: 1024px) {
+
+  body {
+    padding-bottom: calc(106px + env(safe-area-inset-bottom));
+  }
+
+  .mobile-bottom-nav {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 13000;
+
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    align-items: center;
+    gap: 8px;
+
+    width: 100%;
+    min-height: 96px;
+
+    padding:
+      10px
+      max(12px, env(safe-area-inset-right))
+      calc(10px + env(safe-area-inset-bottom))
+      max(12px, env(safe-area-inset-left));
+
+    background: rgba(31, 30, 29, 0.97);
+
+    border-top: 1px solid rgba(255, 255, 255, 0.07);
+
+    box-shadow:
+      0 -12px 35px rgba(0, 0, 0, 0.25),
+      0 -1px 0 rgba(255, 255, 255, 0.03);
+
+    backdrop-filter: blur(22px);
+    -webkit-backdrop-filter: blur(22px);
+  }
+
+  .bottom-nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    width: 100%;
+    min-width: 0;
+    min-height: 76px;
+
+    padding: 10px 8px;
+
+    color: rgba(255, 255, 255, 0.56);
+    background: transparent;
+
+    border-radius: 27px;
+
+    font-family: "Tajawal", Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1;
+
+    text-decoration: none;
+
+    transition:
+      color 0.25s ease,
+      background-color 0.25s ease,
+      transform 0.2s ease,
+      box-shadow 0.25s ease;
+  }
+
+  .bottom-nav-item svg {
+    width: 24px;
+    height: 24px;
+
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+
+    pointer-events: none;
+  }
+
+  .bottom-nav-item span {
+    display: block;
+    white-space: nowrap;
+    pointer-events: none;
+  }
+
+  .bottom-nav-item:active {
+    transform: scale(0.97);
+  }
+
+  .bottom-nav-item:focus-visible {
+    outline: 2px solid #ffffff;
+    outline-offset: -4px;
+  }
+
+  /* الرئيسية مفعّلة بشكل افتراضي */
+  .nav-home {
+    color: #ffffff;
+    background: #ff5a47;
+
+    box-shadow:
+      0 10px 26px rgba(255, 90, 71, 0.24),
+      inset 0 1px 0 rgba(255, 255, 255, 0.14);
+  }
+
+  /* إزالة التفعيل عن الرئيسية عند فتح المنيو أو الموقع */
+  body:has(#menu:target) .nav-home,
+  body:has(#visit:target) .nav-home {
+    color: rgba(255, 255, 255, 0.56);
+    background: transparent;
+    box-shadow: none;
+  }
+
+  /* تفعيل المنيو */
+  body:has(#menu:target) .nav-menu {
+    color: #ffffff;
+    background: #ff5a47;
+
+    box-shadow:
+      0 10px 26px rgba(255, 90, 71, 0.24),
+      inset 0 1px 0 rgba(255, 255, 255, 0.14);
+  }
+
+  /* تفعيل الموقع */
+  body:has(#visit:target) .nav-location {
+    color: #ffffff;
+    background: #ff5a47;
+
+    box-shadow:
+      0 10px 26px rgba(255, 90, 71, 0.24),
+      inset 0 1px 0 rgba(255, 255, 255, 0.14);
+  }
+
+  /* تفعيل الرئيسية عند الضغط عليها */
+  body:has(#home:target) .nav-home {
+    color: #ffffff;
+    background: #ff5a47;
+
+    box-shadow:
+      0 10px 26px rgba(255, 90, 71, 0.24),
+      inset 0 1px 0 rgba(255, 255, 255, 0.14);
+  }
+}
+
+/* تلفونات صغيرة */
+@media (max-width: 390px) {
+
+  body {
+    padding-bottom: calc(94px + env(safe-area-inset-bottom));
+  }
+
+  .mobile-bottom-nav {
+    min-height: 88px;
+    gap: 5px;
+    padding-top: 8px;
+  }
+
+  .bottom-nav-item {
+    min-height: 68px;
+    border-radius: 23px;
+    font-size: 12px;
+    gap: 7px;
+  }
+
+  .bottom-nav-item svg {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+/* إخفاؤه على اللابتوب والشاشات الكبيرة */
+@media (min-width: 1025px) {
+
+  .mobile-bottom-nav {
+    display: none !important;
+  }
+}
